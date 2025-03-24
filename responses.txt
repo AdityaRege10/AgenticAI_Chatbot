@@ -1,0 +1,176 @@
+Introduction to IDMS ERP System
+1. Overview of IDMS ERP System
+The IDMS ERP System is a comprehensive enterprise resource planning solution designed
+specifically for manufacturing industries. It helps businesses streamline Sales, PurchasTe,
+Inventory, Production, Quality Control, Dispatch, Finance, and Accounts while ensuring full
+compliance with GST regulations.
+
+ERP Structure: Modules Overview
+IDMS ERP consists of the following major modules:
+	● Sales & NPD: Manages quotations, sales orders, invoices, and dispatches.
+	● Planning: Aligns demand forecasting, material planning, and production schedules.
+	● Purchase: Handles procurement, supplier management, and purchase orders.
+	● Stores: Maintains stock levels, material movements, and inventory tracking.
+	● Production: Controls manufacturing processes, job work, and raw material
+consumption.
+	● Maintenance: Manages machine upkeep and preventive maintenance schedules.
+	● Quality: Ensures compliance through inspections and material validation.
+	● Dispatch & Logistics: Organizes shipments, transport partners, and delivery tracking.
+	● HR & Admin: Manages workforce, payroll, and employee records.
+	● Accounts & Finance: Tracks financial transactions, payments, GST compliance, and
+reporting.
+	● Settings: Provides system configuration, user access management, and role-based
+permissions.
+
+2. Structure of Each Module: Masters, Transactions, and
+Reports
+Each module in IDMS follows a three-tier data structure to ensure data integrity, efficiency,
+and traceability:
+A. Masters
+	● Masters store static or reference data that drive transactions.
+	● Examples:
+		○ Sales Master: Customer Master, SKU Master, Payment Terms
+		○ Purchase Master: Supplier Master, HSN Mapping
+		○ Inventory Master: Warehouse Locations, Stock Categories
+		○ Finance Master: Ledger Accounts, GST Configurations
+
+B. Transactions
+● Transactions are dynamic operations performed in the ERP.
+● Examples:
+	○ Sales Transactions: Sales Order, Dispatch Request, Invoice
+	○ Purchase Transactions: PO, Goods Receipt Note (GRN)
+	○ Inventory Transactions: Stock Issue, Stock Transfer
+	○ Finance Transactions: Payment Processing, Journal Entries
+
+C. Reports
+● Reports provide real-time insights and data analysis.
+● Examples:
+	○ Sales Reports: Order Confirmation Report, Sales Register
+	○ Purchase Reports: Outstanding PO Report, Purchase Register
+	○ Inventory Reports: Stock Aging, Reorder Levels
+	○ Finance Reports: GST Return Filing, Ledger Balance Reports
+
+3. GST Integration in IDMS ERP
+A. GST Compliance in IDMS
+The ERP ensures full GST compliance by:
+	1. Automating GST calculations in transactions.
+	2. Validating GSTIN of customers & suppliers.
+	3. Generating GST-compliant invoices and e-invoices.
+	4. Tracking GST filing deadlines and reports (GSTR-1, GSTR-3B, etc.).
+	5. E-Way Bill integration for transport tracking.
+B. Key GST Concepts in ERP
+	● HSN Code: Classification for goods taxation.
+	● SAC Code: Classification for service taxation.
+	● Tax Invoice: Official billing document with GST details.
+	● E-Invoice: Digital GST invoice validated by the Government.
+	● E-Way Bill: Document for goods transportation.
+	● Credit/Debit Notes: Adjustments to GST invoices.
+	● Reverse Charge Mechanism (RCM): GST liability shifts from supplier to recipient.
+
+4. GST-Related FAQs for ERP Users
+
+Q1. What is GST and why is it important for businesses?
+A: GST (Goods and Services Tax) is an indirect tax levied on the supply of goods and services
+in India. It replaces multiple indirect taxes and ensures a unified taxation system. Businesses
+must comply with GST regulations to avoid penalties and ensure smooth operations.
+
+Q2. How does IDMS help in GST compliance?
+A: IDMS ERP integrates GST into every transaction, ensuring automatic tax calculations,
+validation of GSTIN, real-time invoice generation, and GST return filing support (GSTR-1,
+GSTR-3B, etc.).
+
+Q3. What are the different types of GST in IDMS?
+A:
+Type Full Form Applied On Collected
+By
+CGST Central Goods and Services Tax Intra-state sales Central Govt.
+SGST State Goods and Services Tax Intra-state sales State Govt.
+IGST Integrated Goods and Services
+Tax
+Inter-state sales Central Govt.
+UTGST Union Territory GST Sales within UTs UT Govt.
+
+
+Q4. What is the role of HSN & SAC codes in IDMS?
+A: HSN (Harmonized System of Nomenclature) codes classify goods, while SAC (Service
+Accounting Code) codes classify services for GST purposes. IDMS assigns these codes to each
+item and service for accurate taxation.
+
+Q5. How does E-Invoicing work in IDMS?
+A: E-invoices are generated digitally and validated through the Government’s Invoice
+Registration Portal (IRP), which assigns a unique Invoice Reference Number (IRN) and QR
+code.
+
+Q6. When is an E-Way Bill required?
+A: If goods worth more than ₹50,000 are being transported, an E-Way Bill must be generated
+via IDMS. It contains transporter details, invoice information, and route details.
+
+Q7. What is the Reverse Charge Mechanism (RCM) in GST?
+A: Under RCM, instead of the supplier, the buyer is liable to pay GST to the government for
+certain transactions (e.g., purchases from unregistered dealers).
+
+Q8. How does IDMS handle tax invoice vs. proforma invoice?
+A: A proforma invoice is a preliminary bill issued before the actual sale, while a tax invoice is
+a legal document for GST compliance. IDMS automates the conversion of proforma invoices
+into tax invoices.
+
+Q9. Can IDMS generate GST returns automatically?
+A: Yes, IDMS compiles sales and purchase data to generate GSTR-1 (Outward Supplies),
+GSTR-3B (Monthly Summary Return), and GSTR-2A (Auto-drafted Inward Supplies
+Report).
+
+Q10. How does IDMS help in reconciling GST mismatches?
+A: IDMS provides detailed GST reports and mismatch reports, ensuring accurate tax data
+before filing returns.
+
+Q11. What is GSTR-1 and how does IDMS help in filing it?
+A: GSTR-1 is a monthly or quarterly return that details all outward supplies (sales) made by a
+business. IDMS automatically compiles and formats sales data (invoices, credit notes, and
+debit notes) and generates GSTR-1 reports for direct upload to the GST portal.
+
+Q12. What is GSTR-3B and how does IDMS assist in its filing?
+A: GSTR-3B is a monthly summary return of both inward and outward supplies, along with
+GST payable. IDMS consolidates sales and purchase transactions and auto-computes GST
+liabilities, enabling seamless 3B return filing.
+
+Q13. How does IDMS handle ITC (Input Tax Credit)?
+A: Input Tax Credit (ITC) allows businesses to claim GST paid on purchases against their GST
+liability on sales. IDMS maintains a ledger of ITC claims, matches them with GSTR-2A
+(auto-drafted supplier details from GSTN), and reconciles any discrepancies.
+
+Q14. What happens if there is a GST mismatch in IDMS?
+A: IDMS flags mismatches in GST returns (e.g., invoices missing from supplier records in
+GSTR-2A). It provides reconciliation reports, suggesting corrections before final filing.
+
+Q15. How does IDMS manage GST for inter-state vs. intra-state
+transactions?
+A: IDMS automatically differentiates between:
+	● Intra-state transactions (CGST & SGST applied).
+	● Inter-state transactions (IGST applied).
+	● Exports (Zero-rated supply with/without LUT).
+	● Reverse charge transactions (RCM applicable).
+
+Q16. How are HSN-wise summary reports generated in IDMS?
+A: GST law mandates that invoices include HSN/SAC codes based on turnover limits. IDMS
+compiles HSN-wise tax summaries and prepares reports in GST-compliant format.
+
+Q17. What happens if a sales invoice is cancelled after GST has been filed?
+A: If an invoice is cancelled before GST filing, it is simply removed. If cancelled after GST
+return submission, IDMS ensures a Credit Note is issued, adjusting tax liabilities in the next
+GST cycle.
+
+Q18. How does IDMS handle GST-exempt and zero-rated supplies?
+A: IDMS supports:
+	● GST-exempt goods (e.g., agricultural products, healthcare services).
+	● Zero-rated supplies (exports, supplies to SEZ).	
+	● GST-exempt customers (charitable organizations, government departments).
+
+Q19. How does IDMS automate GST payments?
+A: IDMS calculates net GST liability, generates a Challan for GST payment (PMT-06), and
+facilitates online payments via Net Banking, UPI, or NEFT/RTGS.
+
+Q20. How does IDMS generate audit reports for GST compliance?
+A: IDMS maintains a detailed audit trail for:
+	● GST ledger reconciliation (sales vs. purchases).
+	● Invoice modifications & corrections.
+	● GSTR-9 (Annual Return) & GSTR-9C (Reconciliation Statement).
